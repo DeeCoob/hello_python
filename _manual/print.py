@@ -27,5 +27,5 @@ print("python", end='@')
 print("simplesorb.com")
 
 #
-print("Same text", file=sys.stdout)
+
 
