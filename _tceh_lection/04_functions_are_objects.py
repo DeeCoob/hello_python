@@ -95,6 +95,7 @@ print(SOME_VAR)
 
 GLOBAL_LIST = []
 
+
 def appand_list(item):
     print('Adding', item)
     GLOBAL_LIST.append(item)
