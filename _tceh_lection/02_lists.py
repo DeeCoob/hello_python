@@ -22,7 +22,7 @@ var[0] = 'baz'
 print(new_var)
 
 # delete:
-test_list = ['pop', 'remove', 'del']
+test_list = ['popo', 'remove', 'del']
 
 # by index:
 popped = test_list.pop(0)
