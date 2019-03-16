@@ -26,7 +26,12 @@ except IndexError as e:
 # Если нет - обработайте возмозможные ошибки и скажите ему, что не так
 
 my_list = [2, 32, 0, 11]
-my_ind = int(input('enter index: '))
+try:
+    my_ind = int(input('Enter index: '))
+    print(my_list[my_ind])
+except ValueError as e:
+    print(e)
+except IndexError as e:
+    print(e)
 
-print(my_list.pop(my_ind))
 
